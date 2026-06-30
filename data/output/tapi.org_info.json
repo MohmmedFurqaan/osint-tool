@@ -1,0 +1,42 @@
+{
+    "generated_at": "2026-06-29T20:19:44.622048",
+    "whois": {
+        "registrar": "Register.com - Network Solutions, LLC",
+        "creation_date": "2010-05-16 14:32:51+00:00",
+        "expiration_date": "2027-05-16 14:32:51+00:00"
+    },
+    "dns": {
+        "A": [
+            "208.91.197.39",
+            "15.197.225.128",
+            "3.33.251.168"
+        ],
+        "MX": [
+            "0 tapi-org.mail.protection.outlook.com."
+        ],
+        "TXT": [
+            "\"MS=ms60344958\"",
+            "\"v=spf1 ip4:66.210.240.210 ip4:66.210.240.211 ip4:66.210.240.212 include:spf.protection.outlook.com include:salsalabs.org include:_spfprod.ngpvan.com -all\"",
+            "\"MS=ms12245826\""
+        ]
+    },
+    "ssl": {
+        "error": "[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000)"
+    },
+    "headers": {
+        "error": "HTTPSConnectionPool(host='tapi.org', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000)')))"
+    },
+    "shodan": {
+        "ip": "208.91.197.39",
+        "os": null,
+        "ports": [
+            80,
+            443,
+            53
+        ],
+        "hostnames": [
+            "windows.forsberg-engineering.com"
+        ],
+        "org": "Confluence Networks Inc"
+    }
+}
