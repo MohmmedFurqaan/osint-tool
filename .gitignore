@@ -12,3 +12,7 @@ wheels/
 .env
 
 report.md
+
+_bmad/
+
+_bmad-output/
