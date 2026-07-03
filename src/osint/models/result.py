@@ -16,6 +16,11 @@ class ScanResult(BaseModel):
     technology_data: List[str] = Field(default_factory=list)
     shodan_data: Dict[str, Any] = Field(default_factory=dict)
     
+    subdomains: List[str] = Field(default_factory=list)
+    geo_data: Dict[str, Any] = Field(default_factory=dict)
+    wayback_data: Dict[str, Any] = Field(default_factory=dict)
+    api_endpoints: List[str] = Field(default_factory=list)
+    
     risk_findings: List[RiskFinding] = Field(default_factory=list)
     
     def model_dump_report(self) -> dict:
